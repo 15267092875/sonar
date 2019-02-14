@@ -1,0 +1,8 @@
+官网下载https://www.sonarqube.org/对应系统程序
+解压
+useradd 创建用户
+chown 赋予权限
+su 进入用户权限
+启动sonar（连带启动es，防火墙打开对应端口）
+
+
