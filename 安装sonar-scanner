@@ -1,0 +1,19 @@
+从官网下载https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+解压
+创建测试目录test
+创建程序目录python
+#目录结构
+-test
+            -python/程序目录
+            -sonar-project.properties
+            
+配置sonar-project.properties #python为例
+sonar.projectKey=Python-Test1
+sonar.projectName=Python-Test1
+sonar.projectVersion=1.0
+sonar.sources=python
+sonar.language=py
+sonar.sourceEncoding=UTF-8
+
+将程序放入python目录下
+再目录test下，使用绝对路径执行/opt/sonar/sonarscan/sonar-scanner-3.3.0.1492/bin/sonar-scanner
