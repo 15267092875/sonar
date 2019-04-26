@@ -34,9 +34,9 @@ $SOANR_HOME$SCANNER
 
 if [ "$X" == "0" ]
 then
-svn checkout $CODE_ADDRESS $LANGUAGE_$PROJECT --username username --password password --no-auth-cache
+svn checkout $CODE_ADDRESS $LANGUAGE"_"$PROJECT --username username --password password --no-auth-cache
 else
-git clone  http://username:password@$CODE_ADDRESS $LANGUAGE_$PROJECT 
+git clone  http://username:password@$CODE_ADDRESS $LANGUAGE"_"$PROJECT 
 fi
 
 creat_file $LANGUAGE $PROJECT
