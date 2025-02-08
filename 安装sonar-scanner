@@ -1,4 +1,5 @@
-从官网下载https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+从文档中心选择对应版本下载
+https://docs.sonarsource.com/sonarqube-server/latest/analyzing-source-code/scanners/sonarscanner/
 解压
 创建测试目录test
 创建程序目录python
@@ -16,4 +17,4 @@ sonar.language=py
 sonar.sourceEncoding=UTF-8
 
 将程序放入python目录下
-再目录test下，使用绝对路径执行/opt/sonar/sonarscan/sonar-scanner-3.3.0.1492/bin/sonar-scanner
+再目录test下，使用绝对路径执行
