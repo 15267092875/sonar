@@ -1,8 +1,13 @@
-官网下载https://www.sonarqube.org/对应系统程序
-解压
-useradd 创建用户
-chown 赋予权限
-su 进入用户权限
-启动sonar（连带启动es，防火墙打开对应端口）
+安装sonar服务端
+查看官网文档中心https://docs.sonarsource.com/sonarqube-server/latest/try-out-sonarqube/
+1、Download and install Java 17 or Java 21 on your system.
+2、Download the SonarQube Developer Edition zip file.
+3、As a non-root user, unzip it in, for example, C:\sonarqube or /opt/sonarqube.
+4、As a non-root user, start the SonarQube server:
+# On Windows, execute:
+C:\sonarqube\bin\windows-x86-64\StartSonar.bat
+ 
+# On other operating systems, as a non-root user execute:
+/opt/sonarqube/bin/<OS>/sonar.sh console
 
 
